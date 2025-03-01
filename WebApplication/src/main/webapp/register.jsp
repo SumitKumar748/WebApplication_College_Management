@@ -50,7 +50,7 @@
 	   </div>
 	<center>
     <div class="container" style="padding:0px 50px 0px 50px;">
-    <p style="color:black;text-align:center;font-size:25px;">${msgg}</p>
+    <label style="color:black;text-align:center;font-size:55px;">${msgg}</label>
 			        <div class="content">
 							          <form action="registration" method="post">
 							          <br>

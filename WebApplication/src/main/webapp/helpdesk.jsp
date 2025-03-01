@@ -21,7 +21,7 @@
 													    margin-bottom: auto;
 													    border:5px solid white;
 													    background-color:white;">
-         <h1 style="font-size:55px;"> TECHNO MAIN SALT LAKE</h1>
+         <h1 style="font-size:55px;color:white;"> TECHNO MAIN SALT LAKE</h1>
      </div>
      <div class="d2" style=" width: 100%;
 							  height: 10px;

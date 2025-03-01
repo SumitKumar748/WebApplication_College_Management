@@ -191,34 +191,47 @@
 
             <br><br>
 
-            <div class="recruiters1" style="background-color: aliceblue;">
+            <div class="recruiters1" style="background:white;width: 80%;
+									    margin: auto;
+									    padding: 10px;
+									    border-radius: 10px;">
                 <center><span style="font-size: 70px;text-align:center;color: black;">Our Recruiters</span></center>
-            </div>
-            <div class="recruiters" style="background-color: aliceblue;border: 17.5px solid aliceblue;padding:10px;">
-                <div class="automoving-images">
-                    <a href="#" style="text-decoration: none;">
-                    <img src="images/accenture.png" alt="Image 1" class="imgsize" >
-                    <img src="images/asainpaints.png" alt="Image 2" class="imgsize" style="width: 110px; height: 55px;">
-                    <img src="images/blue star.png" alt="Image 3" class="imgsize" style="width: 100px; height: 25px;" >
-                    <img src="images/capgemini.png" alt="Image 4" class="imgsize" style="width: 90px; height: 40px;">
-                    <img src="images/cognizant.jpeg" alt="Image 5" class="imgsize" style="width: 90px; height: 40px;">
-                    <img src="images/deloittte.png" alt="Image 6" class="imgsize">
-                    <img src="images/google.png" alt="Image 7" class="imgsize">
-                    <img src="images/HDFC.png" alt="Image 8" class="imgsize">
-                    <img src="images/honeywell.png" alt="Image 9" class="imgsize">
-                    <img src="images/hp.png" alt="Image 10" class="imgsize">
-                    <img src="images/IBM.png" alt="Image 11" class="imgsize">
-                    <img src="images/infosys.png" alt="Image 12" class="imgsize">
-                    <img src="images/intel.jpeg" alt="Image 13" class="imgsize">
-                    <img src="images/isuzu.jpeg" alt="Image 14" class="imgsize" style="width: 70px; height: 70px;">
-                    <img src="images/jhonsons.png" alt="Image 15" class="imgsize" style="width: 90px; height: 70px;">
-                    <img src="images/microsoft.png" alt="Image 16" class="imgsize" style="width: 70px; height: 70px;">
-                    <img src="images/musigma.jpeg" alt="Image 17" class="imgsize" style="width: 70px; height: 70px;">
-                    <img src="images/nerolac.png" alt="Image 18" class="imgsize" style="width: 90px; height: 50px;">
-                    <img src="images/tcs.png" alt="Image 19" class="imgsize"  style="width: 110px;">
-                    <img src="images/wipro.png" alt="Image 20" class="imgsize" style="width: 80px; height: 50px;">
+            	<br>
+                <center>
+                <div class="automoving-images" style="width:auto;">
+                    <a href="#">
+                    <img src="images/accenture.png" alt="Image 1" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/asainpaints.png" alt="Image 2" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/blue star.png" alt="Image 3" class="imgsize" style="width: auto; height: 55px;" >
+                    <img src="images/capgemini.png" alt="Image 4" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/cognizant.jpeg" alt="Image 5" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/deloittte.png" alt="Image 6" class="imgsize"style="width: auto; height: 55px;">
+                    <img src="images/google.png" alt="Image 7" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/HDFC.png" alt="Image 8" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/honeywell.png" alt="Image 9" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/hp.png" alt="Image 10" class="imgsize" style="width: auto; height: 55px;">
+                    
                     </a>
                 </div>
+                </center>
+                <center>
+                <div class="automoving-images" style="width:auto;">
+                    <a href="#" >
+                    <img src="images/hp.png" alt="Image 10" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/IBM.png" alt="Image 11" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/infosys.png" alt="Image 12" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/intel.jpeg" alt="Image 13" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/isuzu.jpeg" alt="Image 14" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/jhonsons.png" alt="Image 15" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/microsoft.png" alt="Image 16" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/musigma.jpeg" alt="Image 17" class="imgsize"style="width: auto; height: 55px;">
+                    <img src="images/nerolac.png" alt="Image 18" class="imgsize" style="width: auto; height: 55px;">
+                    <img src="images/tcs.png" alt="Image 19" class="imgsize"style="width: auto; height: 55px;">
+                    <img src="images/wipro.png" alt="Image 20" class="imgsize" style="width: auto; height: 55px;">
+                    </a>
+                </div>
+                </center>
+                <br>
             </div>
             <br><br><br>
             <footer style="display: flex;background-color: black;" >

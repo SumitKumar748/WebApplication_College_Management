@@ -24,7 +24,7 @@
 													    margin-bottom: auto;
 													    border:5px solid white;
 													    background-color:white;">
-         <h1 style="font-size:55px;"> TECHNO MAIN SALT LAKE</h1>
+         <h1 style="font-size:55px;color:white;"> TECHNO MAIN SALT LAKE</h1>
      </div>
      <div class="d2" style=" width: 100%;
 							  height: 10px;
@@ -57,6 +57,8 @@
 	    <form action="teacherlogin" method="post">
 	                <center>
 	                
+	                <label style="color:yellow;text-align:center; font-size:55px;">${msg}</label>
+
 	                <label class="l1" style="text-decoration:underline;color:white;font-size:65px;">Teacher Id</label>
 	                <input class="i1" name="teid" placeholder="Enter Email" type="email" required>
 	               <label class="l1" style="text-decoration:underline;color:white;font-size:65px;">Password</label>
@@ -67,8 +69,6 @@
 	              		</div>
 	        		</div>
 	                </center>
-	                
-	                <p style="color:black;text-align:center; font-size:35px;">${msg}</p>
 	           
 	          
 	    </form>

@@ -23,7 +23,7 @@
 													    margin-bottom: auto;
 													    border:5px solid white;
 													    background-color:white;">
-         <h1 style="font-size:55px;"> TECHNO MAIN SALT LAKE</h1>
+         <h1 style="font-size:55px;color:white;"> TECHNO MAIN SALT LAKE</h1>
      </div>
      <div class="d2" style=" width: 100%;
 							  height: 10px;
@@ -54,20 +54,18 @@
 	<div class="container" style="height:650px;">
 	    <form action="studentlogin" method="post" style="background-color:F4F8FF;">
 	                <center>
+	                <label style="color:yellow;text-align:center; font-size:55px;">${msg}</label>
 	                
 	                <label class="l1" style="text-decoration:underline;color:white;font-size:65px;">Student Id</label>
 	                <input class="i1" name="sid" placeholder="Enter ID" type="number" required>
 	               <label class="l1" style="text-decoration:underline;color:white;font-size:65px;">Password</label>
 	                <input class="i1" name="pwd" placeholder="Enter Password" type="password" required><br>
-	                <div class="button-container">
-			              <div class="button">
+	                <div class="button-container"style="width:100%;">
+			              <div class="button" >
 			                <input type="submit" Value="LOG IN">
 	              		</div>
 	        		</div>
 	                </center>
-	                
-	                <p style="color:black;text-align:center; font-size:35px;">${msg}</p>
-	           
 	          
 	    </form>
 	    
