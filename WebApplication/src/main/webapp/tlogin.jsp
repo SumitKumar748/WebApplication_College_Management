@@ -12,8 +12,8 @@
     <title>Teacher Login</title>
      
 </head>
-<body style="background-color:cyan;margin:0px;">
-<div id="maindiv" style="margin:auto;" >
+<body style="background-color:#DC381F;margin:0px;">
+<div id="maindiv" style="margin:0px;height:auto;" >
     <div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
      <div class="d1" style="background-color:#DC381F;">
          <img src="images/thelogo.png" style="width: 85px;
@@ -32,26 +32,26 @@
 							  background-color: white;">
      </div>
  
- <div class="background" style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+ <div class="background" style="border:box-shadow: 0 5px 10px rgba(0,0,0,0.15);
  	background-image: url('images/backg.webp'); /* Path to your image */
-    max-width:1974px;
+    width:100%;
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;">
  
-    <div class="mcd3">
-			            
-			           <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">HOME</p></a>
-			       
-			           <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">REGISTRATION FORM</p></a>
-			
-			           <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">STUDENT LOGIN</p></a>
-			
-			           <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">TEACHER LOGIN</p></a>
-			           
-			           <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">ANNOUNCEMENTS</p></a>
-			           
-	   </div>
+    <div class="mcd3" >
+				            
+				           <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">HOME</label></a>
+				       
+				           <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">REGISTRATION FORM</label></a>
+				
+				           <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">STUDENT LOGIN</label></a>
+		
+				           <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">TEACHER LOGIN</label></a>
+				           
+				           <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">ANNOUNCEMENTS</label></a>
+				           
+	</div>
 <br><br><br>
     <div class="container" style="height:650px;">
 	    <form action="teacherlogin" method="post">
@@ -79,7 +79,11 @@
     <br>
    <br>
    
-   <footer style="display: flex;background-color: black;" >
+   
+</div>
+</div>
+</body>
+<footer style="display: flex;background-color: black;" >
                 <img src="images/img11.png" style="width: 80px; height: 80px;" >
             <center>
                 
@@ -89,8 +93,5 @@
                     providing them the best education and opportunities 
                     for future career growth.</p>
             </center>
-            </footer>
-</div>
-</div>
-</body>
+</footer>
 </html>

@@ -6,13 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TECHNO MAIN SALT LAKE</title>
-    <link href="css/allinone.css" rel="stylesheet" type="text/css">
+    <link href="css/register.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="images/icon.ico">
 	
 </head>
-<body style="margin:0px;">
- <div id="maindiv" style="margin:0px;border-radius:0px;">
-	<div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
+<body style="margin:0px;background-color:#DC381F;">
+ <div id="maindiv" style="margin:0px;max-width:1980px;
+    height:1080px;">
+	<div style="border:5px solid black;border-bottom:none;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
 		     <div class="d1" style="background-color:#DC381F;">
 		         <img src="images/thelogo.png" style="width: 85px;
 													    height: 85px;
@@ -28,29 +29,27 @@
 							  height: 10px;
 							  border-width: 5px;
 							  background-color: white;">
-		  		</div>
+		  	</div>
      </div>
- <div class="background" style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+ <div class="background" style="border:5px solid black;border-top:none;box-shadow: 0 5px 10px rgba(0,0,0,0.15);
  	background-image: url('images/backg.webp'); /* Path to your image */
-    max-width:1974px;
+    max-width:100%;;
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;">
- 
+ 	
 	 <div class="mcd3">
-			            
-			           <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">HOME</p></a>
-			       
-			           <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">REGISTRATION FORM</p></a>
-			
-			           <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">STUDENT LOGIN</p></a>
-			
-			           <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">TEACHER LOGIN</p></a>
-			           
-			           <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">ANNOUNCEMENTS</p></a>
-			           
-	   </div>
+          <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33" style="margin:20%;"><label style="font-weight:bolder;font-size:20px;cursor: pointer;margin:auto;">HOME</label></a>
+      
+          <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"style="margin:20%;"><label style="font-weight:bolder;font-size:20px;cursor: pointer;margin:auto;">REGISTRATION FORM</label></a>
 
+          <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"style="margin:20%;"><label style="font-weight:bolder;font-size:20px;cursor: pointer;margin:auto;">STUDENT LOGIN</label></a>
+
+          <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"style="margin:20%;"><label style="font-weight:bolder;font-size:20px;cursor: pointer;margin:auto;">TEACHER LOGIN</label></a>
+          
+          <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"style="margin:20%;"><label style="font-weight:bolder;font-size:20px;cursor: pointer;margin:auto;">ANNOUNCEMENTS</label></a>
+	</div>
+	
    
       <div style="width:80%; font-size: 15px;margin:auto;
 									    color: black;

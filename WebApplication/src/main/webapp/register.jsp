@@ -10,7 +10,7 @@
     <title>Registration Form</title>
     
 </head>
-<body style="background-color:cyan;margin:0px;">
+<body style="background-color:#DC381F;margin:0px;">
 <div id="maindiv" style="margin:0px;">
     <div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
      <div class="d1" style="background-color:#DC381F;">
@@ -29,103 +29,103 @@
 							  border-width: 5px;
 							  background-color: white;">
      </div>
- <div class="background" style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+ <div class="background" style="box-shadow: 0 5px 10px rgba(0,0,0,0.15);
  background-image: url('images/backg.webp'); /* Path to your image */
     max-width:1972px;
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;"> 
- <div class="mcd3">
-			            
-			           <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">HOME</p></a>
-			       
-			           <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">REGISTRATION FORM</p></a>
-			
-			           <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">STUDENT LOGIN</p></a>
-			
-			           <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">TEACHER LOGIN</p></a>
-			           
-			           <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"><p style="font-weight:bolder;font-size:20px;">ANNOUNCEMENTS</p></a>
-			           
-	   </div>
-	<center>
-    <div class="container" style="padding:0px 50px 0px 50px;">
-    <label style="color:black;text-align:center;font-size:55px;">${msgg}</label>
-			        <div class="content">
-							          <form action="registration" method="post">
-							          <br>
-							          <h1>REGISTRATION FORM</h1>
-							          <br>
-									            <div class="user-details">
-									            	<div class="input-box">
-													     	    <span id="ap">Department</span>
-																<select id="selectdepart" name="department" >
-																			        <option value="EE">Electrical Engineering</option>
-																			        <option value="ME">Mechanical Engineering</option>
-																			        <option value="CV">Civil Engineering</option>
-																			        <option value="CSE">Computer Science Engineering</option>
-																			        <option value="IT">Information Technology Engineering</option>
-																			        <option value="FT">Food Technology Engineering</option>
-																			        <option value="BCA">Bachelor's in Computer Application</option>
-																			        <option value="BBA">Bachelor's in Business Administration</option>
-															      </select>
-														</div>
-															 <div class="input-box">
-														                <span id="ap" >Id Number</span>
-														                <input type="text" name="idnum" placeholder="Enter your name" required>
-												 				</div>
-												              <div class="input-box">
-														                <span id="ap" >Student Name</span>
-														                <input type="text" name="sname" placeholder="Enter your name" required>
-												 				</div>
-												              <div class="input-box">
-															                <span id="ap">Parent's Name</span>
-															                <input type="text" name="pname" placeholder="Enter Mother's/Father's name" required>
-															  </div>
-												              <div class="input-box">
-														                <span id="ap" >Email</span>
-														                <input type="text" name="email" placeholder="Enter your email" required>
-												              </div>
-												              <div class="input-box">
-														                <span id="ap">Password</span>
-														                <input type="password" name= "pword" placeholder="Enter your password" required>
-												          	   </div>
-												              <div class="input-box">
-														                <span id="ap">Phone Number</span>
-														                <input type="text" name="phnum" placeholder="Enter Phone Number" required>
-														      </div>
-												              <div class="input-box">
-														                <span id="ap">Date of birth</span>
-														                <input id="date" type="date" name="dob" required>
-												              </div>
-												              <div class="input-box">
-														                <span id="ap">Gender</span>
-														                <select id="selectdepart" name="gender" >
-																			        <option value="Male">Male</option>
-																			        <option value="Female">Female</option>
-																			        <option value="Others">Others</option>
-															      		</select>
-												              </div>
-												              <div class="input-box">
-														                <span id="ap">Nationality</span>
-														                <select id="selectdepart" name="nationality" >
-																			        <option value="Indian">Indian</option>
-																			        <option value="Not Indian">Not Indian</option>
-
-															      		</select>
-												              </div>
-							            		</div>
-										            <div class="button-container">
-												              <div class="button">
-												                <input type="submit" value="Register">
-										              		</div>
-							           			    </div>
-							           			    <br>
-							           			    
-							          </form>
-			        </div>
+	 <div class="mcd3" >
+				            
+				           <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">HOME</label></a>
+				       
+				           <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">REGISTRATION FORM</label></a>
+				
+				           <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">STUDENT LOGIN</label></a>
+		
+				           <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">TEACHER LOGIN</label></a>
+				           
+				           <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">ANNOUNCEMENTS</label></a>
+				           
+	</div>
+	
+    <div class="container" style="padding:0px 50px 0px 50px;margin:auto;">
+	    <label style="color:black;text-align:center;font-size:55px;">${msgg}</label>
+				        <div class="content">
+								          <form action="registration" method="post">
+								          <br>
+								          <center><h1>REGISTRATION FORM</h1></center>
+								          <br>
+										            <div class="user-details">
+										            	<div class="input-box">
+														     	    <span id="ap">Department</span>
+																	<select id="selectdepart" name="department" >
+																				        <option value="EE">Electrical Engineering</option>
+																				        <option value="ME">Mechanical Engineering</option>
+																				        <option value="CV">Civil Engineering</option>
+																				        <option value="CSE">Computer Science Engineering</option>
+																				        <option value="IT">Information Technology Engineering</option>
+																				        <option value="FT">Food Technology Engineering</option>
+																				        <option value="BCA">Bachelor's in Computer Application</option>
+																				        <option value="BBA">Bachelor's in Business Administration</option>
+																      </select>
+															</div>
+																 <div class="input-box">
+															                <span id="ap" >Id Number</span>
+															                <input type="text" name="idnum" placeholder="Enter your name" required>
+													 				</div>
+													              <div class="input-box">
+															                <span id="ap" >Student Name</span>
+															                <input type="text" name="sname" placeholder="Enter your name" required>
+													 				</div>
+													              <div class="input-box">
+																                <span id="ap">Parent's Name</span>
+																                <input type="text" name="pname" placeholder="Enter Mother's/Father's name" required>
+																  </div>
+													              <div class="input-box">
+															                <span id="ap" >Email</span>
+															                <input type="text" name="email" placeholder="Enter your email" required>
+													              </div>
+													              <div class="input-box">
+															                <span id="ap">Password</span>
+															                <input type="password" name= "pword" placeholder="Enter your password" required>
+													          	   </div>
+													              <div class="input-box">
+															                <span id="ap">Phone Number</span>
+															                <input type="text" name="phnum" placeholder="Enter Phone Number" required>
+															      </div>
+													              <div class="input-box">
+															                <span id="ap">Date of birth</span>
+															                <input id="date" type="date" name="dob" required>
+													              </div>
+													              <div class="input-box">
+															                <span id="ap">Gender</span>
+															                <select id="selectdepart" name="gender" >
+																				        <option value="Male">Male</option>
+																				        <option value="Female">Female</option>
+																				        <option value="Others">Others</option>
+																      		</select>
+													              </div>
+													              <div class="input-box">
+															                <span id="ap">Nationality</span>
+															                <select id="selectdepart" name="nationality" >
+																				        <option value="Indian">Indian</option>
+																				        <option value="Not Indian">Not Indian</option>
+	
+																      		</select>
+													              </div>
+								            		</div>
+											            <div class="button-container">
+													              <div class="button">
+													                <input type="submit" value="Register">
+											              		</div>
+								           			    </div>
+								           			    <br>
+								           			    
+								          </form>
+				        </div>
       </div>
-      </center>
+      
       
     <br>
     <br>

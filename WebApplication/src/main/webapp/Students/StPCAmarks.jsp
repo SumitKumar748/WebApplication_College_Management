@@ -8,7 +8,7 @@
 <link href="../css/allinone.css"  rel="stylesheet"  type="text/css">
 <link rel="icon" type="image/png" href="../images/icon.ico">
 </head>
-<body style="background-color: #B2B5E0;">
+<body style="background-color: #B2B5E0;margin:0px;">
 <% 
 if (session.getAttribute("studentname") == null) {
     response.sendRedirect("../slogin.jsp");
@@ -16,27 +16,31 @@ if (session.getAttribute("studentname") == null) {
 }
 %>
 	<div id="maindiv">
-		        <div class="d1">
-		            <img src="../images/thelogo.png" class="img1">
-		            <h1> Techno Main Salt Lake, Sector V</h1>
-		        </div>
-		        <div class="d2"></div>
-		         <div class="mcd3">
-		            
-		            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" class="mcd33"><h4>Dashboard</h4></a>
-		       
-		           <a href="../StMyCredential.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" class="mcd33"><h4>My Credentials</h4></a>
-		
-		           <a href="StAllSubjects.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" class="mcd33"><h4>Subjects Details</h4></a>
-		
-		           <a href="StCamarks.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" class="mcd33"><h4>CA Marks</h4></a>
-		           
-		           <a href="StPCAmarks.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" class="mcd33"><h4>PCA Marks</h4></a>
-		           
-		           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" class="mcd33"><h4>Log Out</h4></a>
-		           
-		           
-		       </div>
+		        <div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
+			     <div class="d1" style="background-color:#DC381F;">
+			         <img src="../images/thelogo.png" style="width: 85px;
+														    height: 85px;
+														    margin-top: auto;
+														    margin-left: auto;
+														    margin-right: 30px;
+														    margin-bottom: auto;
+														    border:5px solid white;
+														    background-color:white;">
+			         <h1 style="font-size:55px;color:white;"> TECHNO MAIN SALT LAKE</h1>
+			     </div>
+			     <div class="d2" style=" width: 100%;
+								  height: 10px;
+								  border-width: 5px;
+								  background-color: white;">
+			  	</div>
+	     </div>
+		         <div style="margin-left:80%;">
+			            
+			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:25px;border-radius:5px;font-weight:bold;background:white;cursor:pointer;">Dashboard</button></a>
+			           
+			           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:25px;border-radius:5px;margin-left:10px;font-weight:bold;background:white;cursor:pointer;">SignOut</button></a>
+			           
+			 </div>
 			<div style="width: 100%; margin: auto;margin-top: 4%; ">
             <div class="atb1">
                 <div class="sp1" >  
