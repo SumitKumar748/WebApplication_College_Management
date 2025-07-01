@@ -11,82 +11,87 @@
     <title>Student Login</title>
     
 </head>
-<body style="margin:0px;background-color:#DC381F;">
-<div id="maindiv" style=" margin:0px;max-width:1980px;height:auto;">
-    <div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
-     <div class="d1" style="background-color:#DC381F;">
-         <img src="images/thelogo.png" style="width: 85px;
-													    height: 85px;
-													    margin-top: auto;
-													    margin-left: auto;
-													    margin-right: 30px;
-													    margin-bottom: auto;
-													    border:5px solid white;
+<body style="margin:0px;border:2px solid white;max-width:1980px;height:1080px;">
+		  <nav style="display:flex;justify-content:center; gap:4.5rem;padding:10px;">
+						  <a href="index.jsp" style="font-size:18px;text-decoration:none;">HOME</a>
+						  <a href="register.jsp" style="font-size:18px;text-decoration:none;">REGISTRATION FORM</a>
+						  <a href="slogin.jsp" style="font-size:18x;text-decoration:none;">STUDENT LOGIN</a>
+						  <a href="tlogin.jsp" style="font-size:18px;text-decoration:none;">TEACHER LOGIN</a>
+						  <a href="helpdesk.jsp" style="font-size:18px;text-decoration:none;">ANNOUNCEMENTS</a>
+		  </nav>
+		 
+<div id="maindiv" style=" max-width:1980px;justify-content:center;">
+
+	     <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;">
+		     <img src="images/thelogo.png" style="width: 60px;
+													    height: 60px;
 													    background-color:white;">
-         <h1 style="font-size:55px;color:white;"> TECHNO MAIN SALT LAKE</h1>
-     </div>
-     <div class="d2" style=" width: 100%;
-							  height: 10px;
-							  border-width: 5px;
-							  background-color: white;">
-     </div>
-	 <div class="background" style="box-shadow: 0 5px 10px rgba(0,0,0,0.15);
-	 	background-image: url('images/backg.webp'); /* Path to your image */
-	    width:100%;
-	    background-size: cover; /* Ensures the image covers the entire div */
-	    background-position: center; /* Centers the image */
-	    background-repeat: no-repeat;">
-	    <div class="mcd3" >
-					            
-					           <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">HOME</label></a>
-					       
-					           <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">REGISTRATION FORM</label></a>
-					
-					           <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">STUDENT LOGIN</label></a>
-			
-					           <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">TEACHER LOGIN</label></a>
-					           
-					           <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">ANNOUNCEMENTS</label></a>
-					           
+													    
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;									  
+		     <div style="display:flex;justify-content:center;flex-direction:column;">									  
+					<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
+					<label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
+			 </div>
+	    </div>
+				  
+		
+	 	<div class="background" style="
+		 	background-image: url('images/backg.webp');
+		 	max-width:1975px;
+		    height:800px;
+		    background-size: cover;
+		    background-position: center; 
+		    background-repeat: no-repeat;
+		    margin:auto;
+		    ">
+		    <br><br>
+
+		<div class="container" style="height:600px;background-color:white;width:50%;">
+		    <form action="studentlogin" method="post" style="margin:auto;border:none;">
+		                
+		                <center>
+		                <label style="color:yellow;text-align:center; font-size:35px;">${msg}</label>
+		                
+		                <label class="l1" style="color:black;font-size:65px;">Student Id</label>
+		                <input class="i1" name="sid" placeholder="Enter ID" type="number" required>
+		               <label class="l1" style="color:black;font-size:65px;">Password</label>
+		                <input class="i1" name="pwd" placeholder="Enter Password" type="password" required>
+		                
+		                <br>
+		                <div class="button-container" style="border-shadow:none;">
+				              <div class="button" style="width:100%;" >
+				                	<input type="submit" Value="LOG IN">
+		              		  </div>
+		        		</div>
+		        		<br>
+		        		<a href="">
+					    	<button style="color: white;
+					    					background-color: #007BFF;
+										    border: none;
+										    border-radius: 5px;
+										    padding:8px 15px 8px 15px;
+										    cursor: pointer;
+										    font-size: 16px;">
+										    Forget ID, Password
+						    </button>
+						</a>
+		        		
+		                </center>
+		           
+		    </form>
+		    
 		</div>
-<br><br><br>
-
-	<div class="container" style="height:650px;">
-	    <form action="studentlogin" method="post" style="background-color:F4F8FF;margin:auto;">
-	                <center>
-	                <label style="color:yellow;text-align:center; font-size:55px;">${msg}</label>
-	                
-	                <label class="l1" style="text-decoration:underline;color:white;font-size:65px;">Student Id</label>
-	                <input class="i1" name="sid" placeholder="Enter ID" type="number" required>
-	               <label class="l1" style="text-decoration:underline;color:white;font-size:65px;">Password</label>
-	                <input class="i1" name="pwd" placeholder="Enter Password" type="password" required><br>
-	                <div class="button-container"style="width:100%;">
-			              <div class="button" >
-			                <input type="submit" Value="LOG IN">
-	              		</div>
-	        		</div>
-	                </center>
-	          
-	    </form>
-	    
-	</div>
-  <br><br><br><br>
-				
-				
+  			<br><br><br><br>
+		</div>
 </div>
-</div>
-
 </body>
-<footer style="display: flex;background-color: black;" >
-                <img src="images/img11.png" style="width: 80px; height: 80px;" >
-            <center>
-                
-                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,
-                    situated at the Salt Lake Campus.It is an elite academic 
-                    institution which caters to bright students and is committed to
-                    providing them the best education and opportunities 
-                    for future career growth.
-                </p>
-            </center>
+<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:2px solid white;" >
+	                <img src="images/img11.png" style="width: 80px; height: 80px;" >
+
+	                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,
+	                    situated at the Salt Lake Campus.It is an elite academic 
+	                    institution which caters to bright students and is committed to
+	                    providing them the best education and opportunities 
+	                    for future career growth.</p>
 </footer>
 </html>

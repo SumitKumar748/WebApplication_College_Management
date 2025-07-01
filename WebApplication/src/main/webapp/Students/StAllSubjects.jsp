@@ -37,65 +37,66 @@ if (session.getAttribute("studentname") == null) {
 	     
 	     
 	     <div style="width:100%;height:auto;">
-					     <div style="margin-left:80%;">
-						            
-						            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:25px;border-radius:5px;font-weight:bold;background:white;cursor:pointer;">Dashboard</button></a>
-						           
-						           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:25px;border-radius:5px;margin-left:10px;font-weight:bold;background:white;cursor:pointer;">SignOut</button></a>
-						           
-						 </div>
-						<div style="width: 100%; margin: auto;margin-top: 4%; ">
-			            <div class="atb1" style="width:50%">
-					                <div class="sp1" >  
-					                    <span >Electric and Hybrid Vehicle</span>
-					                </div> 
-					                <div class="sp1">
-					                    <span >Course Code : PC-EE-602A</span>
-					                </div>
-					         
-			              </div>
-			            <div class="atb1" style="width:50%;margin-top:0px;">
-					                <div class="sp1" >  
-					                    <span >Digital Signal Processing</span>
-					                </div> 
-					                <div class="sp1">
-					                    <span >Course Code : PC-EE-602A</span>
-					                </div>
-			              	 </div>    
+			<br>
+		     <div style="margin-left:82%;">
 			            
-			            <div class="atb1" style="width:50%;margin-top:0px;">
-			                <div class="sp1" >  
-			                    <span >Digital Control System</span>
-			                </div> 
-			                <div class="sp1">
-			                    <span >Course Code : PC-EE-602A</span>
-			                </div>     
-			            </div>
-			            <div class="atb1" style="width:50%;margin-top:0px;">
-			                <div class="sp1" >  
-			                    <span >Digital Control System</span>
-			                </div> 
-			                <div class="sp1">
-			                    <span >Course Code : PC-EE-602A</span>
-			                </div>     
-			            </div>
-			            <div class="atb1" style="width:50%;margin-top:0px;">
-			                <div class="sp1" >  
-			                    <span >Digital Control System</span>
-			                </div> 
-			                <div class="sp1">
-			                    <span >Course Code : PC-EE-602A</span>
-			                </div>     
-			            </div>
-			            <div class="atb1" style="width:50%;margin-top:0px;">
-			                <div class="sp1" >  
-			                    <span >Digital Control System</span>
-			                </div> 
-			                <div class="sp1">
-			                    <span >Course Code : PC-EE-602A</span>
-			                </div>     
-			            </div>
-			        </div>
+			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;font-weight:bold;background:white;cursor:pointer;">Dashboard</button></a>
+			           
+			           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;margin-left:10px;font-weight:bold;background:white;cursor:pointer;">SignOut</button></a>
+			           
+			 </div>
+			<div style="width: 100%; margin: auto;margin-top: 4%; ">
+            <div class="atb1" style="width:50%">
+		                <div class="sp1" >  
+		                    <span >Electric and Hybrid Vehicle</span>
+		                </div> 
+		                <div class="sp1">
+		                    <span >Course Code : PC-EE-602A</span>
+		                </div>
+		         
+              </div>
+            <div class="atb1" style="width:50%;margin-top:0px;">
+		                <div class="sp1" >  
+		                    <span >Digital Signal Processing</span>
+		                </div> 
+		                <div class="sp1">
+		                    <span >Course Code : PC-EE-602A</span>
+		                </div>
+              	 </div>    
+            
+            <div class="atb1" style="width:50%;margin-top:0px;">
+                <div class="sp1" >  
+                    <span >Digital Control System</span>
+                </div> 
+                <div class="sp1">
+                    <span >Course Code : PC-EE-602A</span>
+                </div>     
+            </div>
+            <div class="atb1" style="width:50%;margin-top:0px;">
+                <div class="sp1" >  
+                    <span >Digital Control System</span>
+                </div> 
+                <div class="sp1">
+                    <span >Course Code : PC-EE-602A</span>
+                </div>     
+            </div>
+            <div class="atb1" style="width:50%;margin-top:0px;">
+                <div class="sp1" >  
+                    <span >Digital Control System</span>
+                </div> 
+                <div class="sp1">
+                    <span >Course Code : PC-EE-602A</span>
+                </div>     
+            </div>
+            <div class="atb1" style="width:50%;margin-top:0px;">
+                <div class="sp1" >  
+                    <span >Digital Control System</span>
+                </div> 
+                <div class="sp1">
+                    <span >Course Code : PC-EE-602A</span>
+                </div>     
+            </div>
+        </div>
 			        
 													
 				 

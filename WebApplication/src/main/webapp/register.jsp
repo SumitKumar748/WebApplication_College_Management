@@ -10,47 +10,44 @@
     <title>Registration Form</title>
     
 </head>
-<body style="background-color:#DC381F;margin:0px;">
-<div id="maindiv" style="margin:0px;">
-    <div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
-     <div class="d1" style="background-color:#DC381F;">
-         <img src="images/thelogo.png" style="width: 85px;
-													    height: 85px;
-													    margin-top: auto;
-													    margin-left: auto;
-													    margin-right: 30px;
-													    margin-bottom: auto;
-													    border:5px solid white;
-													    background-color:white;">
-         <h1 style="font-size:55px;color:white;"> TECHNO MAIN SALT LAKE</h1>
-     </div>
-     <div class="d2" style=" width: 100%;
-							  height: 10px;
-							  border-width: 5px;
-							  background-color: white;">
-     </div>
- <div class="background" style="box-shadow: 0 5px 10px rgba(0,0,0,0.15);
- background-image: url('images/backg.webp'); /* Path to your image */
-    max-width:1972px;
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;"> 
-	 <div class="mcd3" >
-				            
-				           <a href="index.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">HOME</label></a>
-				       
-				           <a href="register.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">REGISTRATION FORM</label></a>
-				
-				           <a href="slogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">STUDENT LOGIN</label></a>
+<body style="margin:0px;border:2px solid white;max-width:1980px;height:1080px;">
+		  <nav style="display:flex;justify-content:center; gap:4.5rem;padding:10px;">
+						  <a href="index.jsp" style="font-size:18px;text-decoration:none;">HOME</a>
+						  <a href="register.jsp" style="font-size:18px;text-decoration:none;">REGISTRATION FORM</a>
+						  <a href="slogin.jsp" style="font-size:18x;text-decoration:none;">STUDENT LOGIN</a>
+						  <a href="tlogin.jsp" style="font-size:18px;text-decoration:none;">TEACHER LOGIN</a>
+						  <a href="helpdesk.jsp" style="font-size:18px;text-decoration:none;">ANNOUNCEMENTS</a>
+		  </nav>
+		 
+		 <div id="maindiv" style="margin:0px;max-width:1980px;height:1080px;">
+
+				     <div  style="background-color:#DC381F;display:flex;justify-content:center;width:auto;padding:20px;border:5px solid white;">
+					     <img src="images/thelogo.png" style="width: 60px;
+																    height: 60px;
+																    background-color:white;">
+																    
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;									  
+						    <div style="display:flex;justify-content:center;flex-direction:column;">									  
+						     	<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
+						     	<label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
+				    		</div>
+		    		 </div>
+				  
 		
-				           <a href="tlogin.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">TEACHER LOGIN</label></a>
-				           
-				           <a href="helpdesk.jsp" style="text-decoration: underline;color:white;" class="mcd33"><label style="font-weight:bolder;font-size:20px;cursor: pointer;">ANNOUNCEMENTS</label></a>
-				           
-	</div>
+		 	<div class="background" style="border:5px solid white;border-top:none;
+			 	background-image: url('images/backg.webp');
+			    max-width:100%;;
+			    background-size: cover;
+			    background-position: center; 
+			    background-repeat: no-repeat;
+			    padding:10px;">
+		 	
+			
+			
+		   
 	
-    <div class="container" style="padding:0px 50px 0px 50px;margin:auto;">
-	    <label style="color:black;text-align:center;font-size:55px;">${msgg}</label>
+    <div class="container" style="padding:0px 50px 0px 50px;margin:auto;margin-top:10px;height:820px;">
+	    <center><label style="color:black;font-size:30px;">${msgg}</label></center>
 				        <div class="content">
 								          <form action="registration" method="post">
 								          <br>
@@ -121,6 +118,7 @@
 											              		</div>
 								           			    </div>
 								           			    <br>
+
 								           			    
 								          </form>
 				        </div>
@@ -131,19 +129,21 @@
     <br>
     <br>
     <br>
-	<footer style="display: flex;background-color: black;" >
+    <br>
+    <br>
+	
+	
+</div>
+</div>
+
+</body>
+<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:5px solid white" >
 	                <img src="images/img11.png" style="width: 80px; height: 80px;" >
-	            <center>
-	                
+
 	                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,
 	                    situated at the Salt Lake Campus.It is an elite academic 
 	                    institution which caters to bright students and is committed to
 	                    providing them the best education and opportunities 
 	                    for future career growth.</p>
-	            </center>
-	</footer>
-</div>
-</div>
-
-</body>
+</footer>
 </html>

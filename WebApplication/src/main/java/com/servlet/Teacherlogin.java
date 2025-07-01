@@ -33,21 +33,21 @@ public class Teacherlogin extends HttpServlet {
 		 {
 			 Class.forName("com.mysql.cj.jdbc.Driver");
 			 Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/webproject","root","sumit@4070");
-			 PreparedStatement pst=con.prepareStatement("select * from teacherdetail where tid=? and password=?");
-			 pst.setString(1, teacherid);
-			 pst.setString(2, password);
-			 ResultSet rslt=pst.executeQuery();
-			 boolean b=pst.execute();
+			 PreparedStatement psmt=con.prepareStatement("select * from teacherdetail where tid=? and password=?");
+			 psmt.setString(1, teacherid);
+			 psmt.setString(2, password);
+			 ResultSet rslt=psmt.executeQuery();
 			 
-			 if(b)
+			 
+			 if(rslt.next())
 			 {
-//				 session.setAttribute("tid", rslt.getInt("tid"));
-//				 session.setAttribute("tname", rslt.getString("tname"));
-//				 session.setAttribute("qualification", rslt.getString("qualification"));
-//				 session.setAttribute("emailid", rslt.getString("emailid"));
-//				 session.setAttribute("phonenumber", rslt.getLong("phonenumber"));
-//				 session.setAttribute("dob", rslt.getString("dob"));
-//				 session.setAttribute("gender", rslt.getString("gender"));
+				 session.setAttribute("tid", rslt.getInt("tid"));
+				 session.setAttribute("tname", rslt.getString("tname"));
+				 session.setAttribute("qualification", rslt.getString("qualification"));
+				 session.setAttribute("emailid", rslt.getString("emailid"));
+				 session.setAttribute("phonenumber", rslt.getInt("phonenumber"));
+				 session.setAttribute("dob", rslt.getDate("dob"));
+				 session.setAttribute("gender", rslt.getString("gender"));
 
 				 
 				 

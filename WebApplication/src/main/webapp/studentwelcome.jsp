@@ -23,7 +23,7 @@ if (session.getAttribute("studentname") == null) {
 %>
 <div id="maindiv" style="max-width:1980px;height:auto;margin:0px;">
 		<div style="box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
-			     <div class="d1" style="background-color:#DC381F;">
+			     <div class="d1" style="background-color:#DC381F;border-radius:0px;">
 			         <img src="images/thelogo.png" style="width: 85px;
 														    height: 85px;
 														    margin-top: auto;
@@ -61,7 +61,7 @@ if (session.getAttribute("studentname") == null) {
 								
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;" onclick="window.location.href='StMyCredential.jsp';">
 									
-									<img src="images/user-icon-png-transparent-35.jpg" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
+									<img src="images/credential.png" height="80px" width="65px" alt="image not available" style="margin-left:20px;">
 									
 									<label style="width: 100%; margin:auto;margin-left:50px;font-size: 25px;cursor:pointer;">My Credentials</label>
 									

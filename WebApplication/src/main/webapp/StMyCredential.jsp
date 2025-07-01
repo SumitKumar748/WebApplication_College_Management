@@ -24,7 +24,7 @@ String gender=(String) session.getAttribute("gender");
     border-radius: 25px solid black;
     margin:0px;">
         <div style="box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
-			     <div class="d1" style="background-color:#DC381F;">
+			     <div class="d1" style="background-color:#DC381F;border-radius:0px;">
 			         <img src="images/thelogo.png" style="width: 85px;
 														    height: 85px;
 														    margin-top: auto;

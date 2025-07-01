@@ -62,7 +62,7 @@ public class studentlogin extends HttpServlet
 					 else 
 					 {
 		
-						req.setAttribute("msg","Invalid Details");
+						req.setAttribute("msg","Invalid Details!");
 		         		RequestDispatcher rd= req.getRequestDispatcher("/slogin.jsp");
 		         		rd.include(req,resp);
 						 
