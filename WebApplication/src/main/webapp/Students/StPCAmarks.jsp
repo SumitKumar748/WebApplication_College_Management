@@ -35,13 +35,17 @@ if (session.getAttribute("studentname") == null) {
 			  	</div>
 	     </div>
 		         <br>
-		     <div style="margin-left:82%;">
+		     <div style="margin-left:75%;">
 			            
-			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;font-weight:bold;background:white;cursor:pointer;">Dashboard</button></a>
+			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" >
+			            <span style="font-size:25px;color:blue;font-weight:bold;cursor:pointer;">Dashboard</span>
+			            </a>&nbsp;&nbsp;&nbsp;&nbsp;
 			           
-			           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;margin-left:10px;font-weight:bold;background:white;cursor:pointer;">SignOut</button></a>
+			           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" >
+			           <span style="color:blue;font-weight:bold;font-size:25px;margin-right:20px;cursor:pointer;">Sign Out</span>
+			           </a>
 			           
-			 </div>
+		    </div>
 			<div style="width: 100%; margin: auto;margin-top: 4%; ">
             <div class="atb1">
                 <div class="sp1" >  

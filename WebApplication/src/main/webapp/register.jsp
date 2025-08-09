@@ -31,7 +31,6 @@
 
 						     	<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
 
-						     	<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO &nbsp;MAIN&nbsp; SALT&nbsp;LAKE</label>
 
 						     	<label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
 				    		</div>
@@ -51,7 +50,8 @@
 		   
 	
     <div class="container" style="padding:0px 50px 0px 50px;margin:auto;margin-top:10px;height:820px;">
-	    <center><label style="color:black;font-size:30px;">${msgg}</label></center>
+    
+	    <center><label style="color:black;font-size:30px;"><br>${msgg}</label></center>
 				        <div class="content">
 								          <form action="registration" method="post">
 								          <br>

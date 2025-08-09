@@ -8,7 +8,7 @@
 <link href="../css/allinone.css" rel="stylesheet" type="text/css">
 <link rel="icon" type="image/png" href="../images/icon.ico">
 </head>
-<body style="background-color: #B2B5E0;margin:0px;">
+<body style="margin:0px;border:2px solid white;max-width:1980px;height:1080px;background-color:#B2B5E0;">
 <% 
 if (session.getAttribute("studentname") == null) {
     response.sendRedirect("../slogin.jsp");
@@ -16,7 +16,7 @@ if (session.getAttribute("studentname") == null) {
 }
 %>
 	<div id="maindiv">
-		 <div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
+		 <div> 
 			     <div class="d1" style="background-color:#DC381F;">
 			         <img src="../images/thelogo.png" style="width: 85px;
 														    height: 85px;
@@ -38,11 +38,17 @@ if (session.getAttribute("studentname") == null) {
 	     
 	     <div style="width:100%;height:auto;">
 			<br>
-		     <div style="margin-left:82%;">
+		     <div style="margin-left:75%;">
 			            
-			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;font-weight:bold;background:white;cursor:pointer;">Dashboard</button></a>
+			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" >
+			            	<span style="color:blue;font-weight:bold;font-size:25px;margin-right:20px;cursor:pointer;">Dashboard</span>
+			            </a>
 			           
-			           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;margin-left:10px;font-weight:bold;background:white;cursor:pointer;">SignOut</button></a>
+			           <a href="slogin.jsp" style="text-decoration: none; color: rgb(103, 12, 88); margin-left: 5px;">
+								<span style="color:blue;font-weight:bold;font-size:25px;margin-right:20px;cursor:pointer;">Sign Out</span>
+						</a> 
+							 
+					
 			           
 			 </div>
 			<div style="width: 100%; margin: auto;margin-top: 4%; ">

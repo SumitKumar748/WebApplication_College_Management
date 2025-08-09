@@ -28,8 +28,6 @@
 
 				<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
 
-				<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO &nbsp;MAIN&nbsp; SALT&nbsp;LAKE</label>
-
 				<label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
 			</div>
 	    </div>

@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" href="images/icon.ico">
 <title>Welcome</title>
 </head>
-<body style="background-color: #B2B5E0;max-width:1980px;margin:0px;border:5px solid black;">
+<body style="background-color: #B2B5E0;max-width:1980px;margin:0px;">
 <%
 
 String studentname=(String) session.getAttribute("studentname");
@@ -50,9 +50,9 @@ if (session.getAttribute("studentname") == null) {
 			    
 			    <div class="d3w" style="margin-top:20px; margin-left:20px;display:flex;">
 				        <label style="color:rgb(56, 1, 34);font-size:35px;font-weight:bold;text-align:center">Welcome, <%= studentname%></label>
-				        <div style="margin-left:70%;">
-							<a href="slogin.jsp" style="text-decoration: none; color: rgb(103, 12, 88); margin-left: 1%;">
-								<button style="color:black;font-weight:bold;font-size:18px;background:white;border-radius:5px;">SignOut</button>
+				        <div style="margin-left:60%;">
+							<a href="slogin.jsp" style="text-decoration: none; color: rgb(103, 12, 88); margin-left: 5px;">
+								<span style="color:blue;font-weight:bold;font-size:25px;margin-right:20px;">Sign Out</span>
 							</a>  
 						</div>
 			    </div>
@@ -61,7 +61,7 @@ if (session.getAttribute("studentname") == null) {
 								
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;" onclick="window.location.href='StMyCredential.jsp';">
 									
-									<img src="images/credential.png" height="80px" width="65px" alt="image not available" style="margin-left:20px;">
+									<img src="images/credential.png" height="60px" width="55px" alt="image not available" style="margin-left:20px; padding:10px;">
 									
 									<label style="width: 100%; margin:auto;margin-left:50px;font-size: 25px;cursor:pointer;">My Credentials</label>
 									
@@ -115,20 +115,20 @@ if (session.getAttribute("studentname") == null) {
 								
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;" onclick="window.location.href='Students/StPCAmarks.jsp';">
 									
-									<img src="images/editdetail.png" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
+									<img src="images/editdetail.png" height="50px" width="65px" alt="image not available" style="padding:15px;">
 									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Edit Credentials</label>
 
 								</div>
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Students/StPCAmarks.jsp';">
 									
-									<img src="images/img11.png" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Registration Form</label>
+									<img src="" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
+									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Online Exam</label>
 
 								</div>
 								<div style="display:flex;cursor:pointer;border-radius:5px;background:white;padding:10px;margin:auto;width:40%;margin-left:20px;" onclick="window.location.href='Students/StCamarks.jsp';">
 									
-									<img src="images/img11.png" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
-									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Exam Form</label>
+									<img src="" height="80px" width="95px" alt="image not available" style="margin-left:20px;">
+									<label style="width: 100%; margin: auto;margin-left:50px;font-size: 25px;cursor:pointer;">Result</label>
 
 								</div>
 								

@@ -33,8 +33,7 @@
 
 						     	<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
 
-						     	<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO &nbsp;MAIN&nbsp; SALT&nbsp;LAKE</label>
-
+						     	
 						     	<label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
 			</div>
 	    </div>
@@ -50,15 +49,17 @@
 		    margin:auto;
 		    ">
 		    <br><br>
-    	<div class="container" style="height:600px;background-color:white;width:50%;">
+    	<div class="container" style="height:725px;background-color:#E0E0E0;width:35%;justify-content:right;">
 		    <form action="teacherlogin" method="post" style="margin:auto;border:none;">
 		                
 		                <center>
-		                <label style="color:white;text-align:center; font-size:25px;">${msg}</label>
-
-		                <label class="l1" style="text-decoration:none;color:black;font-size:65px;">Teacher Id</label>
+		                <label style="color:blue;text-align:center; font-size:25px;">${msg}</label>
+						<img src="images/technologo.png" alt="Profile" style="width: 160px;
+															height: 160px;
+         													width: 30%; height: 30%; object-fit: cover;"">
+		                <label class="l1" style="text-decoration:none;color:black;font-size:55px;">Teacher Id</label>
 		                <input class="i1" name="teid" placeholder="Enter Email" type="email" required>
-		                <label class="l1" style="text-decoration:none;color:black;font-size:65px;">Password</label>
+		                <label class="l1" style="text-decoration:none;color:black;font-size:55px;">Password</label>
 		                <input class="i1" name="tpwd" placeholder="Enter Password" type="password" required>
 		                <div class="button-container" style="display:flex;width:100%;">
 				          
@@ -78,22 +79,31 @@
 										    Forget ID, Password
 						    </button>
 						</a>
+						<br>
+						<br>
+						<br>
+						<br>
+						<span style="font-size:20px;">Please enter valid credentials</span><br>
+						<span style="font-size:20px;">For any credential regarding queries, <br>Please Contact to the College.</span>
+		        		
 		        		
 		                </center>
 		           
 		    </form>
 		    
 		</div>
+		
     
 	  
 	</div>
+	
     
    
    
 </div>
 
 </body>
-<footer style="display:flex;background-color: black;justify-content:center;margin:auto;" >
+<footer style="display:flex;background-color: black;justify-content:center;margin:auto;border:2px white solid;" >
 	                <img src="images/img11.png" style="width: 80px; height: 80px;" >
 
 	                <p style="color: whitesmoke;">Techno Main Salt Lake is a unit of the Techno India Group,

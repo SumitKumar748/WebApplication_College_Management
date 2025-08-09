@@ -32,14 +32,13 @@
 
 					<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO&nbsp;MAIN&nbsp;SALT&nbsp;LAKE</label>
 
-					<label style="font-size:40px;color:white;padding:auto;font-weight:bold;"> TECHNO &nbsp;MAIN&nbsp; SALT&nbsp;LAKE</label>
-
 					<label style="font-size:15px;color:white;padding:auto;display:flex;justify-content:right;"> Affiliated by MAKAUT</label>
 			 </div>
 	    </div>
 				  
 		
-	 	<div class="background" style="
+	 	<div class="background" 
+	 		style="
 		 	background-image: url('images/backg.webp');
 		 	max-width:1975px;
 		    height:800px;
@@ -48,17 +47,20 @@
 		    background-repeat: no-repeat;
 		    margin:auto;
 		    ">
+		     
 		    <br><br>
 
-		<div class="container" style="height:600px;background-color:white;width:50%;">
+		<div class="container" style="height:725px;background-color:#E0E0E0;width:35%;justify-content:right;">
 		    <form action="studentlogin" method="post" style="margin:auto;border:none;">
-		                
+		                 
 		                <center>
-		                <label style="color:yellow;text-align:center; font-size:35px;">${msg}</label>
-		                
-		                <label class="l1" style="color:black;font-size:65px;">Student Id</label>
+		                <label style="color:blue;text-align:center; font-size:35px;">${msg}</label>
+		                <img src="images/technologo.png" alt="Profile" style="width: 160px;
+															height: 160px;
+         													width: 30%; height: 30%; object-fit: cover;"">
+		                <label class="l1" style="color:black;font-size:55px;">Student Id</label>
 		                <input class="i1" name="sid" placeholder="Enter ID" type="number" required>
-		               <label class="l1" style="color:black;font-size:65px;">Password</label>
+		               <label class="l1" style="color:black;font-size:55px;">Password</label>
 		                <input class="i1" name="pwd" placeholder="Enter Password" type="password" required>
 		                
 		                <br>
@@ -79,8 +81,15 @@
 										    Forget ID, Password
 						    </button>
 						</a>
+						<br>
+						<br>
+						<br>
+						<br>
+						<span style="font-size:20px;">Please enter valid credentials</span><br>
+						<span style="font-size:20px;">For any credential regarding queries, <br>Please Contact to the College.</span>
 		        		
 		                </center>
+		                
 		           
 		    </form>
 		    

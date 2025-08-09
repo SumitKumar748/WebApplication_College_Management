@@ -16,7 +16,7 @@ if (session.getAttribute("studentname") == null) {
 }
 %>
 	<div id="maindiv">
-		        <div style="border:5px solid black;box-shadow: 0 5px 10px rgba(0,0,0,0.15);"> 
+		        <div style=""> 
 			     <div class="d1" style="background-color:#DC381F;border-radius:0px;">
 			         <img src="../images/thelogo.png" style="width: 85px;
 														    height: 85px;
@@ -35,13 +35,17 @@ if (session.getAttribute("studentname") == null) {
 			  	</div>
 	     </div>
 	     <br>
-		         <div style="margin-left:82%;">
+		<div style="margin-left:75%;">
 			            
-			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;font-weight:bold;background:white;cursor:pointer;">Dashboard</button></a>
+			            <a href="../studentwelcome.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" >
+			            <span style="font-size:25px;color:blue;font-weight:bold;cursor:pointer;">Dashboard</span>
+			            </a>&nbsp;&nbsp;&nbsp;&nbsp;
 			           
-			           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" ><button style="font-size:20px;border-radius:5px;margin-left:10px;font-weight:bold;background:white;cursor:pointer;">SignOut</button></a>
+			           <a href="../slogin.jsp" style="text-decoration: none;color:rgb(103, 12, 88);" >
+			           <span style="color:blue;font-weight:bold;font-size:25px;margin-right:20px;cursor:pointer;">Sign Out</span>
+			           </a>
 			           
-			 </div>
+		</div>
 
         
       <div style="width: 100%; margin: auto;margin-top: 4%; ">
@@ -52,7 +56,7 @@ if (session.getAttribute("studentname") == null) {
                 <div class="sp1">
                     <span >Course Code : PC-EE-602A</span>
                 </div>
-                <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:white; font-size:20px;border:3px solid blue;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
+                <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:blue; font-size:20px;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
             </div>
             <div class="atb1" style="margin-top:0px;">
                 <div class="sp1" >  
@@ -61,7 +65,7 @@ if (session.getAttribute("studentname") == null) {
                 <div class="sp1">
                     <span >Course Code : PC-EE-602A</span>
                 </div>
-               <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:white; font-size:20px;border:3px solid blue;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
+               <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:blue; font-size:20px;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
             </div>    
             
             <div class="atb1" style="margin-top:0px;">
@@ -71,7 +75,7 @@ if (session.getAttribute("studentname") == null) {
                 <div class="sp1">
                     <span >Course Code : PC-EE-602A</span>
                 </div>
-             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:white; font-size:20px;border:3px solid blue;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
+             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:blue; font-size:20px;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
             </div>
             <div class="atb1" style="margin-top:0px;">
                 <div class="sp1" >  
@@ -80,7 +84,7 @@ if (session.getAttribute("studentname") == null) {
                 <div class="sp1">
                     <span >Course Code : PC-EE-602A</span>
                 </div>
-             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:white; font-size:20px;border:3px solid blue;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
+             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:blue; font-size:20px;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
             </div>
             <div class="atb1" style="margin-top:0px;">
                 <div class="sp1" >  
@@ -89,7 +93,7 @@ if (session.getAttribute("studentname") == null) {
                 <div class="sp1">
                     <span >Course Code : PC-EE-602A</span>
                 </div>
-             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:white; font-size:20px;border:3px solid blue;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
+             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:blue; font-size:20px;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
             </div>
             <div class="atb1" style="margin-top:0px;">
                 <div class="sp1" >  
@@ -98,7 +102,7 @@ if (session.getAttribute("studentname") == null) {
                 <div class="sp1">
                     <span >Course Code : PC-EE-602A</span>
                 </div>
-             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:white; font-size:20px;border:3px solid blue;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
+             <div style="width: 20%;margin: auto;"><a href="" class="tdb" style="color:blue; font-size:20px;padding:3px;border-radius:5px;">Show Marks</a>  </div>    
             </div>
             
         </div>
